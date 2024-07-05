@@ -26,16 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const alphaLogo = document.getElementById("alpha_logo");
     const betaLogo = document.getElementById("beta_logo");
     const deltaLogo = document.getElementById("delta_logo");
-    const clr = document.getElementById("clrbtn");
 
     window.addEventListener("scroll", function () {
-        if (window.scrollY > 150) {
+        if (window.scrollY > 50) {
             navbar.classList.remove("bg-transparent", "text-white");
             navbar.classList.add("bg-white", "text-gray-800");
             navLinks.forEach(link => {
                 link.classList.remove("text-white");
                 link.classList.add("text-gray-800");
-                clrbtn.classList.add("text-black");
             });
             alphaLogo.src = "img/Alpha-Logo-blue).png"; // Logo for white background
             betaLogo.src = "img/Beta-Logo-blue.png"; // Logo for white background
@@ -46,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
             navLinks.forEach(link => {
                 link.classList.remove("text-gray-800");
                 link.classList.add("text-white");
-                clrbtn.classList.remove("text-black")
             });
             alphaLogo.src = "img/Alpha-Logo-White-1.png"; // Logo for transparent background
             betaLogo.src = "img/Beta-Logo-White-2.png"; // Logo for transparent background

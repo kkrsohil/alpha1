@@ -1,12 +1,9 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
 
 .bg-transparent {
     transition: background-color 0.3s ease-in-out;
