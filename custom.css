@@ -64,11 +64,12 @@
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .service-pattern:hover .overlay {
     opacity: 0;
+    filter: blur(5px);
 }
 
 .service-pattern .content {
@@ -85,7 +86,7 @@
 
 .service-pattern:hover .content {
     transform: scale(1);
-    background-color: #1E40AF;
+    background-color: transparent;
 }
 
 .service-pattern-1 {
@@ -104,11 +105,12 @@
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .service-pattern-1:hover .overlay {
     opacity: 0;
+    filter: blur(5px);
 }
 
 .service-pattern-1 .content {
@@ -125,7 +127,7 @@
 
 .service-pattern-1:hover .content {
     transform: scale(1);
-    background-color: #1E40AF;
+    background-color: transparent;
 }
 
 .service-pattern-2 {
@@ -144,11 +146,12 @@
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease;
-    opacity: 1;
+    opacity: 0.5
 }
 
 .service-pattern-2:hover .overlay {
     opacity: 0;
+    filter: blur(5px);
 }
 
 .service-pattern-2 .content {
@@ -160,12 +163,13 @@
     height: 100%;
     transition: transform 0.5s ease;
 
+
     /* Adjust the background color as needed */
 }
 
 .service-pattern-2:hover .content {
     transform: scale(1);
-    background-color: #1E40AF;
+    background-color: transparent;
 }
 
 
